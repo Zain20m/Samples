@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 --[[
         This script is proprietary software of RedstoneGuard © 2026
         (Redstone Studios UG).

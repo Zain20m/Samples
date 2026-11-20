@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 -- Luavify Secure Loader
 -- https://luavify-protector.itskevin.workers.dev
 -- https://discord.gg/MVCZjqwDgD

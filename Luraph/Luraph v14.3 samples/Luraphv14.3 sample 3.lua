@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 -- This file was protected using Luraph Obfuscator v14.3 [https://lura.ph/]
 setclipboard("discord.gg/limitlesslegacy")
 game:GetService("StarterGui"):SetCore("SendNotification", {

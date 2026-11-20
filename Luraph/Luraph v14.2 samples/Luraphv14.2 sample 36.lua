@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 -- This file was protected using Luraph Obfuscator v14.2 [https://lura.ph/]
 
 

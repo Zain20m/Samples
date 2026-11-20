@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 -- Luavify Secure Loader
 local success, err = pcall(function()
     pcall(function() game:HttpGet("https://luavify-protector.itskevin.workers.dev/log-execution?hash=e56ac69ced51958a31d64fa897f3bff3") end)

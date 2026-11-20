@@ -1,3 +1,4 @@
+-- Samples by etl_c on discord [Cdaily]
 if game.PlaceId ~= 2210085102 then return end
 if game.JobId == "" or game.JobId == "00000000-0000-0000-0000-000000000000" then return end
 (function() local e=(type(getgenv)=="function" and getgenv()) or _G if type(e)=="table" then rawset(e,"__otase_origin","https://otase.otase.workers.dev") end end)();
