@@ -1,36 +1,79 @@
-# Samples
+# Lua Obfuscation Samples
 
-A collection of Lua samples organized by obfuscator and version. This repository is intended for research, testing, parser development, and understanding how different obfuscators structure their output.
+**A growing, organized collection of real-world Lua obfuscation samples, grouped by obfuscator and version.**
 
-## Contents
+If you work on Lua tooling, deobfuscation research, parser development, or compatibility testing, this repository gives you a collection of samples to study and test against in one place.
 
-| Obfuscator | Sample sets | Files |
+> **Find a sample. Study its structure. Build better tools.**
+
+[⭐ Star this repository](https://github.com/Zain20m/Samples) if you find the collection useful. A star helps other developers discover it and supports the work that goes into keeping samples organized.
+
+---
+
+## Why this collection?
+
+Working with obfuscated Lua often means hunting through scattered files, unknown versions, and inconsistent examples. This repository aims to make that process easier.
+
+- **Version-organized:** Samples are grouped by obfuscator, with separate folders for known versions.
+- **Useful for testing:** Build parser, beautifier, detector, and deobfuscator test cases against a broader range of inputs.
+- **One place to browse:** Explore multiple obfuscators without digging through unrelated collections.
+- **Attribution preserved:** Sample credits and existing source notes should remain intact.
+- **Community-friendly:** Contributions that are clearly sourced and organized help make the collection more useful to everyone.
+
+## Collection
+
+There are currently **353 Lua files** in the repository, including three standalone files in the root.
+
+| Obfuscator | Available sample sets | Samples |
 | --- | --- | ---: |
 | [Centurion](./Centurion/) | 5.2, 6.0, 6.1, 6.2, 6.3, 6.3.2 | 71 |
 | [Fulcrum](./Fulcrum/) | Fulcrum samples | 53 |
-| [Luraph](./Luraph/) | 14.1–14.9, 15.0–15.2 (available versions) | 155 |
+| [Luraph](./Luraph/) | 14.1–14.9, 15.0–15.2 | 155 |
 | [MoonVeil](./MoonVeil/) | 2.1.1 | 13 |
-| [Voltfuscator](./Voltfuscator/) | 7.5–8.0 (including Nyx sets) | 58 |
+| [Voltfuscator](./Voltfuscator/) | 7.5–8.0, including Nyx sets | 58 |
 
-There are also three standalone Lua files in the repository root. **353 Lua files** are currently included.
+*Version coverage reflects the samples currently present, not every release published by each obfuscator.*
 
-## Credits
+## Who is this for?
 
-Sample attribution is important. The Lua samples include this credit header:
+This collection may be useful if you're:
+
+- Developing a Lua deobfuscator, beautifier, parser, or obfuscator detector.
+- Comparing how different obfuscators transform Lua source.
+- Building regression tests for version-specific behavior.
+- Learning about common obfuscation structures and control-flow transformations.
+- Maintaining tools that need to handle varied Lua input.
+
+## Credits and attribution
+
+The sample collection is credited to **etl_c on Discord ([Cdaily])**.
+
+The following attribution header is included in the Lua samples:
 
 ```lua
 -- Samples by etl_c on discord [Cdaily]
 ```
 
-Credit for the sample collection goes to **etl_c on Discord ([Cdaily])**. Please preserve the attribution when copying, sharing, or redistributing samples, and retain any additional author or source credits already present in individual files.
+Please keep this credit when copying, sharing, or redistributing samples. Preserve any additional author, source, or license notices already present in individual files. If a sample has separate licensing or usage terms, those terms still apply.
 
-## Repository notes
+## Contributing
 
-- Samples are grouped by obfuscator, with version-specific folders where available.
-- The collection may contain duplicates, different revisions, or incomplete examples.
-- A folder's presence does not imply that every release or version is represented.
-- These files are provided for educational and defensive analysis, compatibility testing, and development of Lua analysis tools. Only analyze or run code in environments you own or are authorized to use.
+Want to help improve the collection? Contributions are welcome.
 
-## Contributions
+- Include the obfuscator name and version when known.
+- Keep samples in the correct folder.
+- Preserve original attribution and relevant license information.
+- Avoid uploading private, leaked, or unauthorized code.
+- Mention when a sample is incomplete, duplicated, or unverified.
 
-Contributions that improve organization or add clearly attributed samples are welcome. When submitting samples, include the obfuscator and version when known, preserve the original source attribution, and avoid submitting private or unauthorized code.
+## A small favor
+
+If this repository saved you time, helped you test a tool, or gave you a useful reference, **please consider giving it a star**.
+
+It costs nothing, helps more people find the collection, and gives a useful signal about which resources the community wants maintained.
+
+**[⭐ Star Zain20m/Samples on GitHub](https://github.com/Zain20m/Samples)**
+
+---
+
+<sub>Maintained as a reference collection for Lua research, development, and testing. Sample availability and version coverage may change as the repository grows.</sub>
