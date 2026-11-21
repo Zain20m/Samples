@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 -- Luavify Secure Loader
 local success, err = pcall(function()

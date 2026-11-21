@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 BIGGIE_PRODUCT=nil
 -- This file was obfuscated with Centurion v6.3 | https://centurion.best

@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 if game.PlaceId ~= 2210085102 then return end
 if game.JobId == "" or game.JobId == "00000000-0000-0000-0000-000000000000" then return end

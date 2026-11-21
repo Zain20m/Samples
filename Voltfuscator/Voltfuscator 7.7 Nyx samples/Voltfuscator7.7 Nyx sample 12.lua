@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 -- Luavify Secure Loader
 -- https://luavify-protector.itskevin.workers.dev

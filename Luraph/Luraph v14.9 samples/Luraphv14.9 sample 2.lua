@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 -- dump | https://onehubscript.com/l/62NUSMKZRRVQD8PQK3PCWG53
 

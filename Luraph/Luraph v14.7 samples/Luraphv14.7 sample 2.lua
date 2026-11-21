@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 -- This file was protected using Luraph Obfuscator v14.7 [https://lura.ph/]
 

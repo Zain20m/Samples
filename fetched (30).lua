@@ -1,3 +1,4 @@
+-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)
 -- Samples by etl_c on discord [Cdaily]
 --[[ RedstoneGuard © 2026 (Redstone Studios UG) — proprietary software. Unauthorized reverse engineering, deobfuscation, modification or redistribution is prohibited under the RedstoneGuard Terms of Service: https://redstoneguard.xyz/terms ]]
 -- This file was obfuscated with Centurion v6.2 | https://centurion.best
