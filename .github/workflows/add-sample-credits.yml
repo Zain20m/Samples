@@ -1,0 +1,54 @@
+name: Add sample collection credits
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/add-sample-credits.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  add-credits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Add credits to every Lua sample in one commit
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          root = Path(".")
+          credit = "-- Collection credits: numberonebayernfan (air) | etl_c (Cdaily)"
+          changed = []
+
+          for path in root.rglob("*.lua"):
+              if ".git" in path.parts:
+                  continue
+              try:
+                  original = path.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              if original.startswith(credit):
+                  continue
+              path.write_text(credit + "\n" + original, encoding="utf-8", newline="")
+              changed.append(str(path))
+
+          workflow = root / ".github/workflows/add-sample-credits.yml"
+          workflow.unlink(missing_ok=True)
+
+          print(f"Updated {len(changed)} Lua files")
+          if changed:
+              print("\n".join(changed))
+
+          import subprocess
+          subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+          subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
+          subprocess.run(["git", "add", "-A"], check=True)
+          subprocess.run(["git", "commit", "-m", "Add collection credits to all Lua samples"], check=True)
+          subprocess.run(["git", "push"], check=True)
+          PY
