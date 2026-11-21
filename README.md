@@ -59,15 +59,18 @@ This collection may be useful if you're:
 
 ## Credits and attribution
 
-The sample collection is credited to **etl_c on Discord ([Cdaily])**.
+The collection credits are:
 
-The following attribution header is included in the Lua samples:
+- **numberonebayernfan (air)**
+- **etl_c on Discord (Cdaily)**
+
+The following attribution header is included in the Lua samples credited to etl_c:
 
 ```lua
 -- Samples by etl_c on discord [Cdaily]
 ```
 
-Please keep this credit when copying, sharing, or redistributing samples. Preserve any additional author, source, or license notices already present in individual files. If a sample has separate licensing or usage terms, those terms still apply.
+Please keep existing sample credits when copying, sharing, or redistributing samples. Preserve any additional author, source, or license notices already present in individual files. Do not replace an individual sample's original attribution with a general collection credit. If a sample has separate licensing or usage terms, those terms still apply.
 
 ## Contributing
 
